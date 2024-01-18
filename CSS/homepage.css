@@ -1,0 +1,153 @@
+#navlist{
+				background: #0652DD;
+				position: fixed;
+				width: 100%;
+				opacity: 80%
+				}
+#navlist a{
+				float: left;
+				display: block;
+				color: black;
+				text-align: center;
+				padding: 12px;
+                font-size: 19px;
+                font-family: Arial;
+				}
+      
+	#navlist a:hover{
+				background-color: #081860;
+				color: white;
+				}
+	.search input[type=text]{
+				width: 300px;
+				height: 25px;
+				border-radius: 25px;
+				border: none;
+				}
+	.search{
+		float: right;
+		margin: 7px;
+		opacity: 80%;
+		}
+	.search button{
+		background-color: none;
+		color: #ffbebb
+		float:right;
+		padding: 5px 10px;
+		margin-right: 12px;
+		font-size: 15px;
+		border-radius: 400px;
+		cursor: pointer;
+		}
+	.name{
+		position: absolute;
+		top: 25%;
+		left: 43.2%;
+		font-size: 25px;
+		font-family: Palatino-Bold;
+		color: white;
+		}
+	#image{
+		positon: relative;
+		text-align: center;
+		color: black;
+		}
+	.para{
+		position: absolute;
+		top: 40%;
+		left: 50%;
+		font-size: 30px;
+		font-family: Arial;
+		text-align: center;
+		color: white;
+		transform: translate(-50%,-50%);
+		}
+	.para1{
+		position: absolute;
+		top: 48%;
+		left: 44%;
+		font-size: 20px;
+		font-family: Arial;
+		text-align: center;
+		color: white;
+		}
+	.btn{
+		position: absolute;
+		top: 58%;
+		left: 44.5%;
+		background-color: #081860;
+		border: 2px solid black;
+		border-radius: 7px;
+		color: #ffffff;
+		padding: 5px 10px;
+		text-align: center;
+		font-size: 20px;
+		cursor: pointer;
+		transition width: 0.5px;
+
+		}
+	.btn:hover{
+		background-color: black ;
+
+		}
+
+.column{
+	float: left;
+	width: 24%;
+	padding: 5px;
+	}
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+	}
+.column button{
+		position: ;
+		width: 99%;
+		background-color: white;
+		border: none;
+		padding: 5px 80px;
+		text-align: center;
+		font-size: 14px;
+		cursor: pointer;
+		}
+	.button:hover{
+		background-color: black;
+		}
+	h1{
+		font-family: "sans-serif";
+		background: #1B9CFC;
+		text-align: center;
+		font-size: 55px;
+		font-weight: 70;
+	}
+	h2{
+		font-weight: 400;
+		text-align: center;
+		font-family: "monospace";
+		font-size: 20px;
+	}
+	/*contacts grid*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 0px ;
+  padding: 0px;
+  font-size: 20px;
+  text-align: center;
+  font-family: cursive;
+}
+
+/*Sticky navbar*/
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
